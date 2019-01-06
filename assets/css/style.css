@@ -37,6 +37,7 @@ p {
 
 button {
     display: inline-block;
+    cursor: pointer;
 }
 
 img {
@@ -78,14 +79,4 @@ h1 {
 h1,
 .big-text {
     font-size: 26px;
-}
-
-/* 
-===================================
-Buttons
-===================================
-*/
-
-button {
-    cursor: pointer;
 }
