@@ -23,8 +23,8 @@ Box Sizing
 
 h1,
 p {
-    /* background-color: red; */
-    padding: 30px;
+    background-color: red;
+    padding: 20px;
     margin: 15px;
     width: 33.3%;
     text-align: center;
@@ -33,6 +33,7 @@ p {
 
 .inline {
     display: inline-block;
+    width: 25%;
 }
 
 button {
@@ -45,4 +46,24 @@ img {
 
 .col-wide {
     width: 50%;
+}
+
+/* 
+===================================
+Backgrounds
+===================================
+*/
+
+body {
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/73/33/mining-icons-cartoon-set-vector-7147333.jpg");
+}
+
+/* 
+===================================
+Buttons
+===================================
+*/
+
+button {
+    cursor: pointer;
 }
