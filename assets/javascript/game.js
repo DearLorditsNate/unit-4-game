@@ -5,17 +5,23 @@ $(document).ready(function() {
     Global Variables
     ==============================
     */
+
+    // Button Values
     var redBtnValue;
     var blueBtnValue;
     var yellowBtnValue;
     var greenBtnValue;
 
+    // Target number
     var targetNumber;
 
+    // Store random values assigned to crystals
     var randomValues = [];
 
+    // Player score
     var playerScore = 0;
 
+    // Win/loss counters
     var wins = 0;
     var losses = 0;
 
@@ -26,9 +32,11 @@ $(document).ready(function() {
     */
 
     $("#red-btn, #blue-btn, #yellow-btn, #green-btn").on("click", function() {
+        // Adds the value of btn clicked to playerScore
         playerScore += parseInt(this.value);
-        console.log(playerScore);
+        // Updates playerScore on the page
         $("#player-score").text(playerScore);
+        // Checks for win/loss conditions
         hasWon(targetNumber, playerScore);
     });
     
@@ -88,7 +96,7 @@ $(document).ready(function() {
         targetNumber = parseInt($("#random-number").text());
 
 
-        // Crystal number assignment
+        // Crystal number assignment between 1-12 | doesn't allow for duplicates by pushing each value to an array and using while loops to generate new random values for each button until it finds a unique one
         $("#red-btn").attr("value", randomCrystalNumber());
         redBtnValue = $("#red-btn").attr("value");
         randomValues.push(redBtnValue);
