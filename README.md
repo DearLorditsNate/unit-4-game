@@ -23,4 +23,4 @@ Each time when the game starts, the crystals will have different values.
 
 ## Play the game here:
 
-https://dearlorditsnate.github.io/Word-Guess-Game/
+https://dearlorditsnate.github.io/unit-4-game/
