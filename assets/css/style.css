@@ -25,7 +25,7 @@ h1,
 p {
     /* background-color: red; */
     padding: 30px;
-    margin: 20px;
+    margin: 15px;
     width: 33.3%;
     text-align: center;
     border: 2px solid black;
@@ -41,4 +41,8 @@ button {
 
 img {
     height: 100px;
+}
+
+.col-wide {
+    width: 50%;
 }
