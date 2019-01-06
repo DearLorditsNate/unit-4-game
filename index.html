@@ -13,23 +13,23 @@
 <body>
     <h1>Crystals Collector</h1>
 
-    <p class="col-wide">You will be given a random number at the start of the game.
+    <p class="col-wide info">You will be given a random target number at the start of the game.
     <br>
     <br>
     There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
     <br>
     <br>
-    You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+    You win the game by matching your total score to the target number. You lose the game if your total score goes above the target number.
     <br>
     <br>
-    The value of each crystal is hidden from you until you click on it.
+    You learn the value of each crystal by clicking on it and seeing how it affects your score.
     <br>
     <br>
-    Each time when the game starts, the game will change the value of each crystal.</p>
+    Each time when the game starts, the crystals will have different values.</p>
 
-    <p>Target number: <span id="random-number"></span></p>
+    <p class="target">Target number: <span class="big-text" id="random-number"></span></p>
 
-    <p>Your total score is: <span id="player-score"></span></p>
+    <p class="target">Your total score is: <span class="big-text" id="player-score"></span></p>
 
     <div>
         <button id="red-btn"><img src="assets/images/red.png"></button>
@@ -38,7 +38,7 @@
         <button id="green-btn"><img src="assets/images/green.png"></button>
     </div>
 
-    <p>
+    <p class="score">
     <span id="result-message"></span>
     <br>
     <br>
